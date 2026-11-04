@@ -1,0 +1,17 @@
+{
+	"type": "",
+	"sections": [
+		{
+			"label": "",
+			"mandatory": false,
+			"inputs": [
+				{
+					"label": "",
+					"type": "",
+					"placeholder": ""
+				}
+			],
+			"render": ""
+		}
+	]
+}

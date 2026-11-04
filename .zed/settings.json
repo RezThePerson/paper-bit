@@ -1,0 +1,19 @@
+{
+	"file_scan_exclusions": [
+		"...",
+		".svelte-kit",
+		".vercel",
+		"build",
+		"node_modules",
+		".gitignore",
+		".npmrc",
+		".prettierignore",
+		"bun.lock",
+		"eslint.config.js",
+		"jsconfig.json",
+		"license",
+		"package.json",
+		"prettier.config.js",
+		"vite.config.js"
+	]
+}

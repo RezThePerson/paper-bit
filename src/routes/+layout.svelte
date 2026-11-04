@@ -1,3 +1,7 @@
+<script module>
+	export const prerender = true;
+</script>
+
 <script>
 	import './layout.css';
 	import favicon from '#lib/assets/favicon.svg';

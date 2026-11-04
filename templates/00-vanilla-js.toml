@@ -5,7 +5,7 @@ label = "Project Info"
 mandatory = true
 inputs = [
 	{ label = "Project Name", type = "text", placeholder = "Awesomeness" },
-	{ label = "Project One liner", type = "text", placeholder = "A project that lets you be awesome!" },
+	{ label = "Project One liner", type = "url", placeholder = "A project that lets you be awesome!" },
 ]
 render = '''
 # {0.0}

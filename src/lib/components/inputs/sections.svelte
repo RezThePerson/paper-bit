@@ -15,7 +15,7 @@
 				<input
 					type={input.type}
 					id={input.label}
-					bind:value={$sections[si]}
+					bind:value={$sections[ti][si]}
 					class="w-full rounded-lg border-2 border-ctp-surface0 px-3 py-2 outline-0"
 				/>
 			</div>

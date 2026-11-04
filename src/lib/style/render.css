@@ -1,0 +1,9 @@
+@reference "./style.css";
+
+#render h1 {
+	@apply my-2 text-2xl;
+}
+
+#render p {
+	@apply my-1;
+}

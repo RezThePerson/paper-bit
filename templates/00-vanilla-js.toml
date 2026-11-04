@@ -8,6 +8,7 @@ inputs = [
 	{ label = "Project One liner", type = "url", placeholder = "A project that lets you be awesome!" },
 ]
 render = '''
-# {0.0}
-> {0.1}
+# {0}
+
+{1}
 '''

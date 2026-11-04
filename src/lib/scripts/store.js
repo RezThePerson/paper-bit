@@ -1,13 +1,13 @@
 import { writable } from 'svelte/store';
 
-export const template = writable("Vanilla JS");
+export const template = writable(0);
 export const sections = writable([]);
 
 export function updateInfo() {
 	// Get values
 	const savedTemplate = localStorage.getItem('template');
 	if (savedTemplate) {
-		template.set(savedTemplate);
+		template.set(Number(savedTemplate));
 	}
 
 	const savedSections = localStorage.getItem('sections');
@@ -17,7 +17,7 @@ export function updateInfo() {
 
 	// Sync values
 	template.subscribe((value) => {
-		localStorage.setItem('template', value);
+		localStorage.setItem('template', String(value));
 	});
 
 	sections.subscribe((value) => {

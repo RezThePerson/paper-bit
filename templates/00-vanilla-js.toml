@@ -1,4 +1,4 @@
-type = "Vanilla JS"
+name = "Vanilla JS"
 
 [[sections]]
 label = "Project Info"

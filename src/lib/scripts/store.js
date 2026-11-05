@@ -1,7 +1,7 @@
 import { writable } from 'svelte/store';
 
 export const template = writable(0);
-export const sections = writable([[]]);
+export const sections = writable([[""]]);
 
 export function updateInfo() {
 	// Get values

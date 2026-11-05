@@ -1,10 +1,6 @@
-import { writable } from 'svelte/store';
-
-function format(str, arr) {
-	return str.replace(/\{(\d+)\}/g, (match, idx) => {
-		const i = Number(idx);
-		return i in arr ? String(arr[i]) : match;
+/** @param {string} md @param {any[]} values */
+export function renderedMD(md, values) {
+	return md.replace(/\{(\d+)\}/g, (match, index) => {
+		return values[Number(index)]
 	});
 }
-
-export const renderedMD = writable("fdfdfd");

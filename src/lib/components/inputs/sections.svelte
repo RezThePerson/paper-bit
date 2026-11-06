@@ -15,7 +15,12 @@
 				<input
 					type={input.type}
 					id={input.label}
-					bind:value={$sections[ti][si]}
+					value={$sections[ti]?.[si] ?? ''}
+					oninput={(e) => {
+						$sections[ti] ??= section.inputs.map(() => '');
+						$sections[ti][si] = e.target.value;
+						$sections = $sections;
+					}}
 					class="w-full rounded-lg border-2 border-ctp-surface0 px-3 py-2 outline-0"
 				/>
 			</div>

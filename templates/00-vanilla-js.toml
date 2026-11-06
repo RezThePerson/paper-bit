@@ -12,3 +12,16 @@ render = '''
 
 {1}
 '''
+
+[[sections]]
+label = "Profdfdject Info"
+mandatory = true
+inputs = [
+	{ label = "Project Name", type = "text", placeholder = "Awesomeness" },
+	{ label = "Project One liner", type = "url", placeholder = "A project that lets you be awesome!" },
+]
+render = '''
+# {0}
+
+{1}
+'''

@@ -12,6 +12,6 @@
 >
 	{#each templates[$template].sections as section, i (i)}
 		<!-- eslint-disable-next-line svelte/no-at-html-tags -->
-		{@html marked(renderedMD(section.render, $sections[i]))}
+		{@html marked(renderedMD(section.render, $sections[i] ?? []))}
 	{/each}
 </div>

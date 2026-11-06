@@ -1,3 +1,3 @@
 # Paper Bits
 
-paper-bits.r3z4.net
+[reztheperson.github.io/paper-bit](https://reztheperson.github.io/paper-bit/)

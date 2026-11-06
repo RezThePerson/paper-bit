@@ -12,9 +12,8 @@ render = '''
 
 {1}
 '''
-
 [[sections]]
-label = "Profdfdject Info"
+label = "Project Info"
 mandatory = true
 inputs = [
 	{ label = "Project Name", type = "text", placeholder = "Awesomeness" },
